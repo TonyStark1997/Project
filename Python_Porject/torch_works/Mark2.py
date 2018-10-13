@@ -16,7 +16,7 @@ learning_rate = 1e-6
 for epoch in range(epoch_n):
     h1 = x.mm(w1)
     h1 = h1.clamp(min = 0)
-    y_pred = h1.mm(w2)
+    y_pred = h1.mm(w2) 
 
     loss = (y_pred - y).pow(2).sum()
     print("Epoch:{}, Loss:{:.4f}".format(epoch,loss))
