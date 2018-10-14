@@ -8,7 +8,7 @@ x = torch.randn(batch_n,input_data)
 y = torch.randn(batch_n,output_data)
 
 w1 = torch.randn(input_data,hidden_layer)
-w2 = torch.randn(output_data,hidden_layer)
+w2 = torch.randn(hidden_layer,output_data)
 
 epoch_n = 20
 learning_rate = 1e-6
