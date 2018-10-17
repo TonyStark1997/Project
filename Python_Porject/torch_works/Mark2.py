@@ -1,4 +1,5 @@
 import torch
+
 batch_n = 100
 hidden_layer = 100
 input_data = 1000
