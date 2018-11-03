@@ -20,4 +20,3 @@ while(1):
     if k == 27:
         break
 cv.destroyAllWindows()
-
